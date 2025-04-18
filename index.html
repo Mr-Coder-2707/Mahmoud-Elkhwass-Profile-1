@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="icon" href="imgs/my.jpg" type="image/png" />
+    <title>Mahmoud-Elkhwass-Profile</title>
+    <meta
+      property="og:title"
+      content="Mahmoud Elkhwass - Full Stack Developer"
+    />
+    <meta
+      property="og:description"
+      content="A passionate Full Stack Developer skilled in Python, PHP, JavaScript, and more. Always learning and building new projects."
+    />
+    <meta
+      property="og:image"
+      content="https://Mr-Coder-2707.github.io/Mahmoud-Elkhwass-Profile-1/imgs/my.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://Mr-Coder-2707.github.io/Mahmoud-Elkhwass-Profile-1/"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:site_name"
+      content="Mahmoud Elkhwass - Full Stack Developer"
+    />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  </head>
+  <body>
+
+    <nav id="navbar">
+      <div class="menu-toggle" id="menuToggle" onclick="toggleMenu()">☰</div>
+      <div class="logo" id="logo">
+        <h4>
+          <span class="char1">M</span>
+          <span class="char2">r</span>
+          <span class="char3">.</span>
+          <span class="char4">C</span>
+          <span class="char5">o</span>
+          <span class="char6">d</span>
+          <span class="char7">e</span>
+          <span class="char8">r</span>
+        </h4>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="main">
+      <div>
+        <h2>Hello, I'm Mahmoud<br /><span>Website Developer</span></h2>
+        <h3>and back developer in python and C++<br>
+          I am a passionate full-stack developer with a strong foundation in Python, PHP, and JavaScript.</h3>
+        <button class="button" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">
+          <div>
+            <div>
+              <div>Go to Contact</div>
+            </div>
+          </div>
+        </button>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/mahmoud.s.elkhwass?mibextid=ZbWKwL"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/mahmoud.s.elkhwass?igsh=MTFoeW53NTIzMDNnbw=="
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://github.com/dashboard"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://wa.me/+0201154031550"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="Services">
+      <h2 class="title">Services</h2>
+      <div class="content">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="icon">
+                <i class="fas fa-edit"></i>
+              </div>
+              <h3>Script Writing</h3>
+            </div>
+            <div class="card-back">
+              <h3>Script Writing</h3>
+              <p>Services are not available now.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Web Development</h3>
+            </div>
+            <div class="card-back">
+              <h3>Web Development</h3>
+              <p>Full stack web development services.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="Projects">
+      <h2 class="title">Projects</h2>
+      <div class="content">
+        <div class="project-card">
+          <div class="project-card-inner">
+            <div class="project-card-front">
+              <div class="project-image">
+                <img src="imgs/brain-16-512.png" alt="Brain Icon" />
+              </div>
+              <div class="project-info">
+                <p class="project-category"><strong>Memory Game</strong></p>
+                <strong class="project-title">Memory Game</strong>
+              </div>
+            </div>
+            <div class="project-card-back">
+              <div class="profile">
+                <img src="imgs/brain-16-512.png" alt="Brain Icon" />
+              </div>
+              <p class="project-category">
+                Improve your memory skills with this game.
+              </p>
+              <a
+                href="https://Mr-Coder-2707.github.io/MEMORY-GAME-o.2/" target="_blank" rel="noopener"
+                class="more-details"
+                >More details</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-card-inner">
+            <div class="project-card-front">
+              <div class="project-image">
+                <img src="imgs/calculate.png" alt="Calculator Icon" />
+              </div>
+              <div class="project-info">
+                <p class="project-category"><strong>Calculator</strong></p>
+                <strong class="project-title">Calculator App</strong>
+              </div>
+            </div>
+            <div class="project-card-back">
+              <div class="profile">
+                <img src="imgs/calculate (1).png" alt="Brain Icon" />
+              </div>
+              <p class="project-category">
+                A simple and efficient calculator app.
+              </p>
+              <a
+                href="https://Mr-Coder-2707.github.io/calculator-Mahmoud-2/" target="_blank"
+                class="more-details"
+                >More details</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Repeat the same structure for other project cards -->
+        <div class="project-card">
+          <div class="project-card-inner">
+            <div class="project-card-front">
+              <div class="project-image">
+                <img src="imgs/connect-four.png" alt="connect-four icon" />
+              </div>
+              <div class="project-info">
+                <p class="project-category"><strong>connect-four</strong></p>
+                <strong class="project-title">connect-four App</strong>
+              </div>
+            </div>
+            <div class="project-card-back">
+              <div class="profile">
+                <img src="imgs/connect-four.png" alt="Brain Icon" />
+              </div>
+              <p class="project-category">
+                A simple and efficient connect-four app.
+              </p>
+              <a
+                href="https://mr-coder-2707.github.io/Connect-4-Game-o.1/" target="_blank"
+                class="more-details"
+                >More details</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-card-inner">
+            <div class="project-card-front">
+              <div class="project-image">
+                <img src="imgs/piano.png" alt="piano Icon" />
+              </div>
+              <div class="project-info">
+                <p class="project-category"><strong>piano</strong></p>
+                <strong class="project-title">piano App</strong>
+              </div>
+            </div>
+            <div class="project-card-back">
+              <div class="profile">
+                <img src="imgs/p.png" alt="piano Icon" />
+              </div>
+              <p class="project-category">
+                A simple and efficient piano app.
+              </p>
+              <a
+                href="https://Mr-Coder-2707.github.io/Playable-Piano/" target="_blank"
+                class="more-details"
+                >More details</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-inner">
+            <div class="project-card-front">
+              <div class="project-image">
+                <img src="imgs/qr.png" alt="Qr-Code Icon" />
+              </div>
+              <div class="project-info">
+                <p class="project-category"><strong>Qr-Code</strong></p>
+                <strong class="project-title">Qr-Code App</strong>
+              </div>
+            </div>
+            <div class="project-card-back">
+              <div class="profile">
+                <img src="imgs/qr-1.png" alt="Brain Icon" />
+              </div>
+              <p class="project-category">
+                A simple and efficient Qr-Code app.
+              </p>
+              <a
+                href="https://Mr-Coder-2707.github.io/Qr-code-Mahmoud/" target="_blank"
+                class="more-details"
+                >More details</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-card-inner">
+            <div class="project-card-front">
+              <div class="project-image">
+                <img src="imgs/tic-tac-toe-2-512.png" alt="tic-tac-toe Icon" />
+              </div>
+              <div class="project-info">
+                <p class="project-category"><strong>tic-tac-toe</strong></p>
+                <strong class="project-title">tic-tac-toe App</strong>
+              </div>
+            </div>
+            <div class="project-card-back">
+              <div class="profile">
+                <img src="imgs/tic-tac-toe-2-512.png" alt="Brain Icon" />
+              </div>
+              <p class="project-category">
+                A simple and efficient tic-tac-toe app.
+              </p>
+              <a
+                href="https://Mr-Coder-2707.github.io/TIC-TAC-TOE-MR-coder/" target="_blank"
+                class="more-details"
+                >More details</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- <div class="project-card">
+          <div class="project-card-inner">
+            <div class="project-card-front">
+              <div class="project-image">
+                <img src="imgs/Flappy.png" alt="Calculator Icon" />
+              </div>
+              <div class="project-info">
+                <p class="project-category"><strong>Calculator</strong></p>
+                <strong class="project-title">Calculator App</strong>
+              </div>
+            </div>
+            <div class="project-card-back">
+              <div class="profile">
+                <img src="imgs/Flappy.png" alt="Brain Icon" />
+              </div>
+              <p class="project-category">
+                A simple and efficient calculator app.
+              </p>
+              <a
+                href="#https://Mr-Coder-2707.github.io/game/" target="_blank"
+                class="more-details"
+                >More details</a
+              >
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <h2 class="title">Skills &amp; Technologies</h2>
+      <div class="content">
+        <div class="skills-container">
+          <!-- HTML5 -->
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+            <span>HTML5</span>
+          </div>
+          
+          <!-- CSS3 -->
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+            <span>CSS3</span>
+          </div>
+          
+          <!-- JavaScript -->
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+            <span>JavaScript</span>
+          </div>
+          
+          <!-- Python -->
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+            <span>Python</span>
+          </div>
+          
+          <!-- PHP -->
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+            <span>PHP</span>
+          </div>
+          
+          <!-- C++ -->
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+            <span>C++</span>
+          </div>
+          
+          <!-- Add more languages as needed -->
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+            <span>Git</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux">
+            <span>Linux</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+            <span>Node.js</span>
+          </div>
+          <div class="skill-card">
+            <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL"> -->
+            <img src="https://img.shields.io/badge/SQL-4479A1?style=flat&logo=sql&logoColor=white" alt="SQL" />
+            <span>SQL</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+            <span>TypeScript</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg" alt="Qt" style="height: 48px;">
+            <span>Qt</span>
+          </div>
+        
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+            <span>MySQL</span>
+          </div>
+          
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask">
+            <span>Flask</span>
+          </div>
+                      
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="title">Contact</h2>
+      <div class="content">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <h3>Phone</h3>
+            </div>
+            <div class="card-back">
+              <h3>Phone</h3>
+              <p>+20 01154031550</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="icon">
+                <i class="fa-solid fa-message"></i>
+              </div>
+              <h3>Email</h3>
+            </div>
+            <div class="card-back">
+              <h3>Email</h3>
+              <p>mahmoudelkhwass704@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="particles-js"></div>
+
+  </body>
+  <!-- Add this right after <body> -->
+<div id="loading-screen">
+  <div class="wheel-and-hamster" aria-label="Orange and tan hamster running in a metal wheel" role="img">
+    <div class="wheel"></div>
+    <div class="hamster">
+      <div class="hamster__body">
+        <div class="hamster__head">
+          <div class="hamster__ear"></div>
+          <div class="hamster__eye"></div>
+          <div class="hamster__nose"></div>
+        </div>
+        <div class="hamster__limb hamster__limb--fr"></div>
+        <div class="hamster__limb hamster__limb--fl"></div>
+        <div class="hamster__limb hamster__limb--br"></div>
+        <div class="hamster__limb hamster__limb--bl"></div>
+        <div class="hamster__tail"></div>
+      </div>
+    </div>
+    <div class="spoke"></div>
+  </div>
+  <p>Loading...</p>
+</div>
+  <script src="script.js"></script>
+
+  </html>
